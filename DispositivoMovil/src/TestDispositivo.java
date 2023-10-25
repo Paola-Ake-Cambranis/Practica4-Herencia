@@ -16,9 +16,13 @@ public class TestDispositivo {
 		System.out.println("Lap es igual a Lap2? :" + lap.equals(lap2));
 		System.out.println("El objeto de " + lap2.getClass().toString() + "llamado lap2 vive en " + lap2.toString());
 
-			Walkman reproductor = new Walkman();
-			reproductor.reproducirCancion("I AM de IVE");
-			reproductor.pausarCancion();
+		Walkman reproductor = new Walkman();
+		reproductor.reproducirCancion("I AM de IVE");
+		reproductor.pausarCancion();
+
+		EReader lector = new EReader();
+		lector.abrirLibro("Flores en el atico");
+
 	}
 
 }
