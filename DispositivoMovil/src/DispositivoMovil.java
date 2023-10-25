@@ -15,7 +15,7 @@ public class DispositivoMovil {
 		System.out.println("Starting up...");		
 	}
 	
-	public void apagar() {
+	public final void apagar() {
 		System.out.println("Shutting down...");
 	}
 	
