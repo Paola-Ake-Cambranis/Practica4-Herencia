@@ -9,10 +9,5 @@ public class Celular extends DispositivoMovil{
     public void llamar (String numero){
         System.out.println("Llamando..." + numero);
     }
-
-    public void encender(){
-        super.encender();
-        System.out.println("No quiero apagarme! :D");
-    }
     
 }
