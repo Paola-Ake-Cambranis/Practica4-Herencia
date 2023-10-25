@@ -1,5 +1,6 @@
 public class Laptop extends DispositivoMovil{
     public Laptop(){
+        super(0);
         velocidadProcesador = 2.47f;
         cargaBateria = 100;
         memoria = 4096;

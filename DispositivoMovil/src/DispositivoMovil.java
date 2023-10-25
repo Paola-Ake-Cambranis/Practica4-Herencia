@@ -6,6 +6,10 @@ public class DispositivoMovil {
 	protected String sistemaOperativo;
 	protected String marca;
 	protected String modelo;
+
+	public DispositivoMovil (int x){
+		System.out.println("Haré que Laptop deje de funcionar! :D ");
+	}
 	
 	public void encender() {
 		System.out.println("Starting up...");		
